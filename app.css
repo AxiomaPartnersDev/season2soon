@@ -1,0 +1,64 @@
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.body{
+    background: radial-gradient(182.36% 97.74% at 50% 100%, #12E0EB 0%, #1C66EF 34.5%, #0A0623 81.5%, #141415 100%);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+textarea,
+input {
+    resize: none;
+}
+
+img {
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 274px;
+    height: 76px;
+    margin: 0 auto;
+}
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 120%;
+    text-align: center;
+    margin: 45px auto 15px;
+    color: #FFFFFF;
+
+}
+.text{
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.coins{
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+}
